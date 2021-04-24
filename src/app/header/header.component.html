@@ -1,0 +1,41 @@
+<header id="header">
+  <div id="main_nav_wrap" class="sticky">
+    <div id="above">
+      <div class="container">
+        <div class="row main_header">
+          <div class="col-xs-8 col-sm-6 col-md-4">
+            <div class="row">
+              <div class="col-xs-6 col-sm-6">
+                <label>Support</label> <br />
+                <span>063/442-888</span>
+              </div>
+              <div class="col-xs-6 col-sm-6">
+                <label>Legal Entities</label> <br />
+                <span>011/111-4444</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-0 col-sm-4 col-md-6"></div>
+          <div class="col-xs-4 col-sm-2 col-md-2 align-self-center">
+            <a *ngFor="let social of socials" href="{{ social.link }}">
+              <i class="{{ social.class }}"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-md-3">
+            <a href="navbar-brand" routerLink="/" class="logo-link"><span class="pc">PC</span> <br /> Zone</a>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-md-9">
+            <app-navigation></app-navigation>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

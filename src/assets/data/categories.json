@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "link": "/articles",
+    "image": "asus.png",
+    "name": "Asus"
+  },
+  {
+    "id": 2,
+    "link": "/articles",
+    "image": "hp.png",
+    "name": "HP"
+  },
+  {
+    "id": 3,
+    "link": "/articles",
+    "image": "deep-cool.png",
+    "name": "Deep Cool"
+  }
+]

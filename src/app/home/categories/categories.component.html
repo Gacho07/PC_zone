@@ -1,0 +1,10 @@
+<section id="categories">
+  <div class="spacing_y">
+    <h2 class="text-center">Our Categories</h2>
+    <div class="container">
+      <a href="#" class="item" *ngFor="let category of categories" [routerLink]="['/articles', category.id]" >
+        <img src="assets/img/categories/{{category.image}}" alt="{{category.name}}" [@logo]="logoRotate" />
+      </a>
+    </div>
+  </div>
+</section>

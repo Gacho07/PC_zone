@@ -1,0 +1,13 @@
+<section id="slider">
+  <div class="slider-area">
+    <div class="slider-handler">
+      <button (click)="prev()" type="button" class="slick-prev slick-arrow" aria-label="Previous">Previous</button>
+
+      <div class="slider-handler-single" *ngFor="let slide of images; let i = index">
+        <img @carouselAnimation *ngIf="i === currentPosition" src="assets/img/{{slide.src}}" class="slide" alt="{{slide.alt}}">
+      </div>
+
+      <button (click)="next()" type="button" class="slick-next slick-arrow" aria-label="Next">Next</button>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,14 @@
+[
+  {
+    "class": "fa fa-facebook-square",
+    "link": "https://sr-rs/facebook.com/"
+  },
+  {
+    "class": "fa fa-instagram",
+    "link": "https://www.instagram.com/"
+  },
+  {
+    "class": "fa fa-linkedin",
+    "link": "https://www.linkedin.com/"
+  }
+]

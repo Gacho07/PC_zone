@@ -1,0 +1,5 @@
+<ul class="nav navbar-nav">
+  <li *ngFor="let link of navigation" routerLinkActive="active">
+    <a routerLink="{{link.path}}">{{link.title}}</a>
+  </li>
+</ul>

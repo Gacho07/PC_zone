@@ -1,0 +1,12 @@
+<div class="image">
+  <img src="assets/img/articles/{{articleData.image}}" alt="{{articleData.name}}" />
+</div>
+<div class="article_description">
+  <span>{{articleData.description | shorten: 100}}</span>
+  <br />
+  <span class="price">{{articleData.price}} $</span>
+</div>
+<!-- <div>
+  <a [routerLink]="['../article-details/', articleData.id]" class="btn btn-red mt-3">More Details</a>
+</div> -->
+

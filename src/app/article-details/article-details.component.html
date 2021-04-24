@@ -1,0 +1,123 @@
+<div class="spacing_y">
+  <div class="article-details">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-2 mx-auto">
+          <h2 class="text-center">{{ article.name | uppercase }} <span>{{ article.powerSupply }}</span></h2>
+          <div class="row">
+            <div class="col-md-12 col-md-offset-1 my-5 text-center image-div">
+              <img src="../../assets/img/articles/{{ article.bigImage }}" alt="{{ article.name }}" [@photoState]="position" (mouseenter)="changePosition('scale')" (mouseleave)="changePosition('back')" />
+            </div>
+          </div>
+
+          <div class="text-center">
+            <h3>{{ article.category }}</h3>
+            <p class="price-paragraph">Price : {{article.price}} $ </p>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="feature-group mr-3">
+                <h4>Processor</h4>
+                <div class="features">
+                  <table class="table table-striped table-dark">
+                    <tr>
+                      <td>Core</td>
+                      <td>{{ article.processor.core }}</td>
+                    </tr>
+                    <tr>
+                      <td>Cache</td>
+                      <td>{{ article.processor.cache }}</td>
+                    </tr>
+                    <tr>
+                      <td>Threads</td>
+                      <td>{{ article.processor.threads }}</td>
+                    </tr>
+                    <tr>
+                      <td>Family</td>
+                      <td>{{ article.processor.family }}</td>
+                    </tr>
+                    <tr>
+                      <td>Name</td>
+                      <td>{{ article.processor.name }}</td>
+                    </tr>
+                    <tr>
+                      <td>Beat</td>
+                      <td>{{ article.processor.beat }}</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="feature-group mr-3">
+                <h4>Storage</h4>
+                <div class="features">
+                  <table class="table table-striped table-dark">
+                    <tr>
+                      <td>Type</td>
+                      <td>{{ article.storage.name }}</td>
+                    </tr>
+                    <tr>
+                      <td>Capacity</td>
+                      <td>{{ article.storage.capacity }}</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="feature-group mr-3">
+                <h4>Memory</h4>
+                <div class="features">
+                  <table class="table table-striped table-dark">
+                    <tr>
+                      <td>Internal Memory</td>
+                      <td>{{ article.memory.internalMemory }}</td>
+                    </tr>
+                    <tr>
+                      <td>Working Tact</td>
+                      <td>{{ article.memory.workingTact }}</td>
+                    </tr>
+                    <tr>
+                      <td>Internal Memory Type</td>
+                      <td>{{ article.memory.internalMemoryType }}</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="feature-group mr-3">
+                <h4>Graphics</h4>
+                <div class="features">
+                  <table class="table table-striped table-dark">
+                    <tr>
+                      <td>Name</td>
+                      <td>{{ article.graphics.name}}</td>
+                    </tr>
+                    <tr>
+                      <td>Memory</td>
+                      <td>{{ article.graphics.memory }}</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 description">
+              <p>{{ article.description }}</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

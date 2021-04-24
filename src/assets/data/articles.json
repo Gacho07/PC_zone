@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "name": "Midi Tower Gamer PC",
+    "price": 212.50,
+    "description": "Gaming PC that can handle multiple streams and video editing programs. You can easily play newest PC games.",
+    "image": "midi-tower.jpg",
+    "bigImage": "midi-tower-big.jpg",
+    "powerSupply": "300W",
+    "idCategory": 1,
+    "category": "Asus",
+    "processor": {
+      "id": 1,
+      "core": 4,
+      "cache": "4 MB",
+      "threads": 3,
+      "family": "AMD Ryzen 5",
+      "name": "2600",
+      "beat": 3.9
+    },
+    "storage": {
+      "id": 1,
+      "name": "SSD",
+      "capacity": "480 GB"
+    },
+    "memory": {
+      "id": 1,
+      "internalMemory": "16 GB",
+      "workingTact": "2666 Mhz",
+      "internalMemoryType": "DDR4"
+    },
+    "graphics": {
+      "id": 1,
+      "name": "nVidia GeForce GTX1660 SUPER",
+      "memory": "6 GB"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Monster Tower Gamer PC",
+    "price": 799.99,
+    "description": "Very powerfull PC. Doesn't have operating system installed. Good optimized power consumption. Simple design.",
+    "image": "monster-tower.jpg",
+    "bigImage": "monster-tower-big.jpg",
+    "powerSupply": "800W",
+    "idCategory": 2,
+    "category": "HP",
+    "processor": {
+      "id": 2,
+      "core": 6,
+      "cache": "3 MB",
+      "threads": 6,
+      "family": "AMD Ryzen 5",
+      "name": "2600",
+      "beat": 3.4
+    },
+    "storage": {
+      "id": 2,
+      "name": "HDD",
+      "capacity": "1 TB"
+    },
+    "memory": {
+      "id": 2,
+      "internalMemory": "8 GB",
+      "workingTact": "2666 Mhz",
+      "internalMemoryType": "DDR4"
+    },
+    "graphics": {
+      "id": 2,
+      "name": "nVidia GeForce GT 1050",
+      "memory": "2 GB"
+    }
+  },
+  {
+    "id": 3,
+    "name": "AMD Gamer Prime",
+    "price": 520.00,
+    "description": "The front panel comes with built-in RGB lighting. Material of steel, and tempered glass. There aren't noise problems with this machine.",
+    "image": "AMD-gamer-prime.jpg",
+    "bigImage": "AMD-gamer-prime-big.jpg",
+    "powerSupply": "600W",
+    "idCategory": 3,
+    "category": "Deep Cool",
+    "processor": {
+      "id": 3,
+      "core": 4,
+      "cache": "6 MB",
+      "threads": 4,
+      "family": "9th gen Intel® Core™ i3",
+      "name": "I3-9400F",
+      "beat": 4.2
+    },
+    "storage": {
+      "id": 3,
+      "name": "SSD",
+      "capacity": "240 GB"
+    },
+    "memory": {
+      "id": 3,
+      "internalMemory": "8 GB",
+      "workingTact": "2666 Mhz",
+      "internalMemoryType": "DDR4"
+    },
+    "graphics": {
+      "id": 3,
+      "name": "Radeon RX570",
+      "memory": "8 GB"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Alfa 3300X",
+    "price": 804.00,
+    "description": "Refrigerator: Intel stock cooler. Purpose for movies, music, internet, etc. Designed simple in one color (black)",
+    "image": "alfa-3300X.jpg",
+    "bigImage": "alfa-3300X-big.jpg",
+    "powerSupply": "550W",
+    "idCategory": 1,
+    "category": "Asus",
+    "processor": {
+      "id": 4,
+      "core": 6,
+      "cache": "3 MB",
+      "threads": 12,
+      "family": "AMD Ryzen 5",
+      "name": "3600",
+      "beat": 4.2
+    },
+    "storage": {
+      "id": 4,
+      "name": "SSD",
+      "capacity": "480 GB"
+    },
+    "memory": {
+      "id": 4,
+      "internalMemory": "16 GB",
+      "workingTact": "2666 Mhz",
+      "internalMemoryType": "DDR4"
+    },
+    "graphics": {
+      "id": 4,
+      "name": "NVIDIA GeForce RTX 2060",
+      "memory": "6 GB"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Fighter Gamer PC",
+    "price": 1255.75,
+    "description": "Our best PC with fantastic configuration. You can play every game you ever wanted. You will have a high-end processor if you are involved in playing video games, graphic design, 3D modeling, photo processing, audio or video processing, architecture and the like.",
+    "image": "fighter-gamerPC.jpg",
+    "bigImage": "fighter-gamerPC-big.jpg",
+    "powerSupply": "1000W",
+    "idCategory": 2,
+    "category": "HP",
+    "processor": {
+      "id": 5,
+      "core": 8,
+      "cache": "32 MB",
+      "threads": 16,
+      "family": "AMD Ryzen 7",
+      "name": "3700X",
+      "beat": 4.4
+    },
+    "storage": {
+      "id": 5,
+      "name": "SSD",
+      "capacity": "512 GB"
+    },
+    "memory": {
+      "id": 5,
+      "internalMemory": "16 GB(2x8GB)",
+      "workingTact": "3200 Mhz",
+      "internalMemoryType": "DDR4"
+    },
+    "graphics": {
+      "id": 5,
+      "name": "GIGABYTE nVidia GeForce RTX 2060",
+      "memory": "6 GB"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Gamer Prime V6",
+    "price": 440,
+    "description": "Middle class PC for everyone who wants to enjoy surfing on internet, watching movies, playing some basic games, etc.",
+    "image": "gamer-prime-v6.jpg",
+    "bigImage": "gamer-prime-v6-big.jpg",
+    "powerSupply": "660W",
+    "idCategory": 3,
+    "category": "Deep Cool",
+    "processor": {
+      "id": 6,
+      "core": 4,
+      "cache": "2 MB",
+      "threads": 4,
+      "family": "AMD Ryzen 3",
+      "name": "1200",
+      "beat": 3.1
+    },
+    "storage": {
+      "id": 6,
+      "name": "SSD",
+      "capacity": "240 GB"
+    },
+    "memory": {
+      "id": 6,
+      "internalMemory": "8 GB",
+      "workingTact": "3000 Mhz",
+      "internalMemoryType": "DDR4"
+    },
+    "graphics": {
+      "id": 6,
+      "name": "Asus ROG Strix Radeon RX570 OC edition",
+      "memory": "8 GB"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Office V1",
+    "price": 295.75,
+    "description": "This PC is for office tasks that includes MS Office jobs or some administration jobs. Didn't made for playing video games.",
+    "image": "office-v1.jpg",
+    "bigImage": "office-v1-big.jpg",
+    "powerSupply": "360W",
+    "idCategory": 1,
+    "category": "Asus",
+    "processor": {
+      "id": 7,
+      "core": 4,
+      "cache": "6 MB",
+      "threads": 4,
+      "family": "9th gen Intel® Core™ i3",
+      "name": "I3-9100F",
+      "beat": 4.2
+    },
+    "storage": {
+      "id": 7,
+      "name": "HDD",
+      "capacity": "1 TB"
+    },
+    "memory": {
+      "id": 7,
+      "internalMemory": "8 GB",
+      "workingTact": "2666 Mhz",
+      "internalMemoryType": "DDR4"
+    },
+    "graphics": {
+      "id": 7,
+      "name": "Radeon RX760",
+      "memory": "4 GB"
+    }
+  },
+  {
+    "id": 8,
+    "name": "White Gaming PC",
+    "price": 1125,
+    "description": "This PC has very powerfull processor and 16 GB RAM which can handle editing and rendering on various programs.",
+    "image": "white-gamer.jpg",
+    "bigImage": "white-gamer-big.jpg",
+    "powerSupply": "1100W",
+    "idCategory": 2,
+    "category": "HP",
+    "processor": {
+      "id": 8,
+      "core": 6,
+      "cache": "12 MB",
+      "threads": 8,
+      "family": "9th gen Intel® Core™ i7",
+      "name": "I7-9700F",
+      "beat": 4.7
+    },
+    "storage": {
+      "id": 8,
+      "name": "SSD",
+      "capacity": "480 GB"
+    },
+    "memory": {
+      "id": 8,
+      "internalMemory": "16 GB",
+      "workingTact": "2666 Mhz",
+      "internalMemoryType": "DDR4"
+    },
+    "graphics": {
+      "id": 8,
+      "name": "NVIDIA GeForce RTX 2060",
+      "memory": "6 GB"
+    }
+  },
+  {
+    "id": 9,
+    "name": "RAC 15793",
+    "price": 1040.55,
+    "description": "Gaming PC that can handle multiple streams and video editing programs. You can easily play newest PC games.",
+    "image": "RAC15793.jpg",
+    "bigImage": "RAC15793-big.jpg",
+    "powerSupply": "600W",
+    "idCategory": 3,
+    "category": "Deep Cool",
+    "processor": {
+      "id": 9,
+      "core": 6,
+      "cache": "9 MB",
+      "threads": 6,
+      "family": "9th gen Intel® Core™ I5",
+      "name": "I5-9400F",
+      "beat": 2.9
+    },
+    "storage": {
+      "id": 9,
+      "name": "SSD",
+      "capacity": "240 GB"
+    },
+    "memory": {
+      "id": 9,
+      "internalMemory": "8 GB",
+      "workingTact": "2666 Mhz",
+      "internalMemoryType": "DDR4"
+    },
+    "graphics": {
+      "id": 9,
+      "name": "nVidia GeForce GTX 1650",
+      "memory": "4 GB"
+    }
+  }
+]

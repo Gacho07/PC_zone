@@ -1,0 +1,12 @@
+<div class="spacing_y">
+  <h2 class="text-center mb-5">Our Articles</h2>
+  <div class="container articles">
+    <div class="article" *ngFor="let article of category_articles">
+      <app-single-article [articleData]="article"></app-single-article>
+
+      <div>
+        <a [routerLink]="['../../article-details/', article.id]" class="btn btn-red mt-3">More Details</a>
+      </div>
+    </div>
+  </div>
+</div>

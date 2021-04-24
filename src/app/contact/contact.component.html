@@ -1,0 +1,62 @@
+<section id="contact">
+  <div class="spacing_y">
+    <h2 class="text-center mb-5">Contact Our Administrator</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form class="contact_form" [formGroup]="contact_form" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+              <label for="">Email</label>
+              <input [ngClass]="{'red-border': !contact_form.get('email').valid}" type="email" formControlName="email"
+                class="form-control" aria-describedby="emailHelp" placeholder="Enter your email">
+              <div *ngIf="!contact_form.get('email').valid && contact_form.get('email').touched">
+                <p class="alert-text">Email must be in valid format.</p>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="">Message Purpose</label>
+              <input [ngClass]="{'red-border': !contact_form.get('subject').valid}" formControlName="subject"
+                placeholder="Enter Message Purpose" class="form-control" aria-describedby="emailHelp" type="text">
+              <div *ngIf="!contact_form.get('subject').valid && contact_form.get('subject').touched">
+                <p class="alert-text">Subject must have min 2 letters and max 40 letters.</p>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="">Message</label>
+              <textarea [ngClass]="{'red-border': !contact_form.get('message').valid}" formControlName="message"
+                placeholder="Enter Message" class="form-control" cols="45" rows="10"></textarea>
+              <div *ngIf="!contact_form.get('message').valid && contact_form.get('message').touched">
+                <p class="alert-text">Message must have min 3 letters and max 200 letters.</p>
+              </div>
+            </div>
+
+            <p *ngIf="sent" class="SuccessfullySent">Message has been sent.</p>
+
+            <input type="submit" value="Send Message" name="submit" class="form-control">
+          </form>
+        </div>
+        <div class="col-md-6">
+          <ul class="our_contacts ml-5">
+            <li>
+              <i class="fa fa-phone fa-3x"></i> <span class="ml-s">060-97-330007-113</span>
+            </li>
+            <li>
+              <i class="fa fa-map-marker fa-3x"></i> <span class="ml-s">Belgrade, Takovska 50</span>
+            </li>
+            <li>
+              <i class="fa fa-envelope fa-3x"></i> <span class="ml-s">pczone@yahoo.com</span>
+            </li>
+          </ul>
+          <!-- MAP -->
+          <div class="mapouter ml-5 mt-5">
+            <div class="gmap_canvas"><iframe width="600" height="300" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=Takovska%2050&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.whatismyip-address.com/divi-discount/"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
